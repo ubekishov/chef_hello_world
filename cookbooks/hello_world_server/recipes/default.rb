@@ -20,9 +20,7 @@ service 'tomcat' do
 
 end
 
-# finding docker image that images init find for platform in 
-
-kitchen yml
+# finding docker image that images init find for platform in kitchen yml
 
 # sol 2: 
 
@@ -64,15 +62,13 @@ end
 
 #   action :install
 
-#   source '/tmp/hello-world-sample-random-gen-1.0.2-
-
-rpm.rpm' 
+#   source '/tmp/hello-world-sample-random-gen-1.0.2-rpm.rpm' 
 
 # end 
 
 bash 'restart_tomcat' do
 
-  cwd ::File.dirname('/tmp')
+  cwd '/tmp'
 
   code <<-EOH
 
