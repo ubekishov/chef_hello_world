@@ -20,9 +20,7 @@ service 'tomcat' do
 
 end
 
-# finding docker image that images init find for platform in 
-
-kitchen yml
+# finding docker image that images init find for platform in kitchen yml
 
 # sol 2: 
 
