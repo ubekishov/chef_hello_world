@@ -2,7 +2,7 @@
 
 name=Snapshots
 
-baseurl=http://ec2-54-210-101-4.compute-1.amazonaws.com/:8081/nexus/content/repositories/snapshots/
+baseurl=http://ec2-54-172-166-228.compute-1.amazonaws.com/:8081/nexus/content/repositories/snapshots/
 
 enabled=1
 
